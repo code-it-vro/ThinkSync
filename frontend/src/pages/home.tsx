@@ -45,16 +45,17 @@ const Home = () => {
             <BrainIcon className="h-24 w-24 text-mediumslateblue" />
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-noto-serif text-oxfordblue">
-            Your Digital Second Brain
+            ThinkSync - Where Ideas Connect
           </h1>
           <p className="text-sm md:text-2xl mb-8 text-battleshipgray max-w-2xl mx-auto font-playpen-sans">
-            Organize your thoughts, ideas, and information in one place.
-            Accessible from anywhere, at any time.
+            Effortlessly manage your thoughts, tasks, and inspirations in one
+            centralized hub. Think smarter, live simpler.
           </p>
           <p className="text-sm md:text-2xl mb-8 text-oxfordblue max-w-2xl mx-auto font-playpen-sans">
-            Sign up now to start organizing your thoughts and ideas without
-            worrying about{" "}
-            <span className="font-semibold text-mediumslateblue ">emails</span>.
+            Sign up to effortlessly organize your ideas and access them anytime,
+            anywhere, free from{" "}
+            <span className="font-semibold text-mediumslateblue ">emails </span>
+            chaos.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
             <Link
@@ -62,14 +63,14 @@ const Home = () => {
               className="bg-mediumslateblue text-seasalt px-8 py-3 rounded-full text-lg font-semibold hover:bg-opacity-90 transition duration-300 ease-in-out flex items-center justify-center"
             >
               <LightbulbIcon className="mr-2 h-5 w-5" />
-              Get Started
+              Start Syncing
             </Link>
             <Link
               to="/all-shared-links"
               className="bg-seasalt text-mediumslateblue px-8 py-3 rounded-full text-lg font-semibold border-2 border-mediumslateblue hover:bg-mediumslateblue hover:text-seasalt transition duration-300 ease-in-out flex items-center justify-center"
             >
               <ShareIcon className="mr-2 h-5 w-5" />
-              Explore Shared Brains
+              Discover Collaborative Spaces
             </Link>
           </div>
         </div>

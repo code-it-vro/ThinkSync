@@ -74,7 +74,7 @@ const Sidebar = () => {
         <div className="flex items-center justify-center h-16 bg-mediumslateblue">
           <BoltIcon className="w-8 h-8 text-seasalt" />
           <Link to="/">
-            <h1 className="text-xl font-semibold text-seasalt">Second Brain</h1>
+            <h1 className="text-xl font-semibold text-seasalt">ThinkSync</h1>
           </Link>
         </div>
 

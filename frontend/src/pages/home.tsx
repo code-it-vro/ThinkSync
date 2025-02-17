@@ -12,19 +12,19 @@ import { ReactElement } from "react";
 
 const socialLinks: { url: string; icon: ReactElement }[] = [
   {
-    url: "https://x.com/manojofficialmj",
+    url: "https://x.com/shuklaji_10",
     icon: (
       <TwitterIcon className="h-6 w-6 transition-all duration-300 ease-in-out hover:text-mediumslateblue" />
     ),
   },
   {
-    url: "https://www.linkedin.com/in/manojoffcialmj/",
+    url: "https://www.linkedin.com/in/ashutoshshukla10/",
     icon: (
       <LinkedinIcon className="h-6 w-6 transition-all duration-300 ease-in-out hover:text-mediumslateblue" />
     ),
   },
   {
-    url: "https://github.com/bcapathshala",
+    url: "https://github.com/code-it-vro",
     icon: (
       <GithubIcon className="h-6 w-6 transition-all duration-300 ease-in-out hover:text-mediumslateblue" />
     ),
